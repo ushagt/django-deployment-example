@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+{% extends 'rel_app/base.html' %}
+{% load my_extras %}
+{% block body_block %}
+<h1> Others Page </h1>
+<h1>{{ text1|foo:"welcome" }}</h1>
+{% endblock %}

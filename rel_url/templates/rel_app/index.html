@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'rel_app/base.html' %}
+{% block body_block %}
+    <h1>This is  index page</h1>
+  <!--build in filters-->
+    <h1>{{ text | cut:'world' }}</h1>
+    <h1>{{ numbers | add:99 }}</h1>
+  {% endblock %}
